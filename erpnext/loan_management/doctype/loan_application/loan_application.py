@@ -40,7 +40,7 @@ class LoanApplication(Document):
 
 		maximum_loan_limit = frappe.db.get_value('Loan Type', self.loan_type, 'maximum_loan_amount')
 		if maximum_loan_limit and self.loan_amount > maximum_loan_limit:
-			frappe.throw(_("Loan Amount cannot exceed Maximum Loan Amount of {0}").format(maximum_loan_limit))
+			frappe.throw(_("Loan Amount cannot exceed Maximum Loan Amount of mohasin {0}").format(maximum_loan_limit))
 
 		if self.maximum_loan_amount and self.loan_amount > self.maximum_loan_amount:
 			frappe.throw(_("Loan Amount exceeds maximum loan amount of {0} as per proposed securities").format(self.maximum_loan_amount))

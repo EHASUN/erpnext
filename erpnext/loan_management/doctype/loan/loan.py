@@ -122,11 +122,11 @@ class Loan(AccountsController):
 
 	def validate_loan_amount(self):
 		if self.maximum_loan_amount and self.loan_amount > self.maximum_loan_amount:
-			msg = _("Loan amount cannot be greater than {0}").format(self.maximum_loan_amount)
+			msg = _("Loan amount cannot be greater than {0} mohasin").format(self.maximum_loan_amount)
 			frappe.throw(msg)
 
 		if not self.loan_amount:
-			frappe.throw(_("Loan amount is mandatory"))
+			frappe.throw(_("Loan amount is mandatory mohasin"))
 
 	def link_loan_security_pledge(self):
 		if self.is_secured_loan:

@@ -229,3 +229,11 @@ frappe.ui.form.on('Loan', {
 		frm.toggle_enable("repayment_periods", frm.doc.repayment_method == "Repay Over Number of Periods")
 	}
 });
+
+frappe.ui.form.on('Loan', {
+    refresh: function(frm) {
+      frm.add_custom_button(('Get User Email Address'), function(){
+        frappe.msgprint(frm.doc.email);
+    },("Action"));
+  }
+});

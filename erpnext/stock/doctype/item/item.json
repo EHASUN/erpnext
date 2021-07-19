@@ -195,7 +195,7 @@
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
-   "label": "Item Group",
+   "label": "Item Groupddddddddddddddddd",
    "oldfieldname": "item_group",
    "oldfieldtype": "Link",
    "options": "Item Group",
@@ -248,7 +248,7 @@
    "default": "1",
    "fieldname": "include_item_in_manufacturing",
    "fieldtype": "Check",
-   "label": "Include Item In Manufacturing"
+   "label": "Include Item In Manufacturing mohasin =============="
   },
   {
    "bold": 1,
