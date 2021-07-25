@@ -120,7 +120,7 @@
    "default": "0",
    "fieldname": "carry_forward",
    "fieldtype": "Check",
-   "label": "Add unused leaves from previous allocations"
+   "label": "Add unused leaves from previous allocations mohasinnnnnnnnnnnnnnnnn"
   },
   {
    "depends_on": "carry_forward",
