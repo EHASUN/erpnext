@@ -255,7 +255,7 @@
    "fetch_from": "item_code.include_item_in_manufacturing",
    "fieldname": "include_item_in_manufacturing",
    "fieldtype": "Check",
-   "label": "Include Item In Manufacturing"
+   "label": "Include Item In Manufacturingfffffffffffffffffffff"
   },
   {
    "fieldname": "original_item",

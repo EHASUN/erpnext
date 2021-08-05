@@ -40,7 +40,7 @@ erpnext.ItemSelector = Class.extend({
 		this.dialog.results = body.find('.results');
 
 		var me = this;
-		this.dialog.results.on('click', '.image-view-item', function() {
+		this.dialog.results.on('click', '.image-view-itemmmmmm', function() {
 			me.add_item($(this).attr('data-name'));
 		});
 
